@@ -139,3 +139,50 @@ button {
 button:hover {
     background-color: #005582;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .contact-info p {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .contact-info p strong {
+        min-width: 85px;
+    }
+
+    .like-section {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    button.like-btn {
+        width: 80px;
+        max-width: 80px;
+    }
+}
