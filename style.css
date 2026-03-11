@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* width control */
+    margin: 0 auto; /* centering */
+    background: #fff;
+    padding: 40px; /* padding */
+    border-radius: 12px; /* border-radius */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #0073b1; /* LinkedIn Blue */
+}
+
+h2 {
+    font-weight: 300;
+    color: #666;
+    margin-top: 0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px; /* height */
+    border-radius: 50%; /* circular image */
+    border: 3px solid #0073b1;
+    transition: transform 0.3s ease; /* transition effect */
+}
+
+.profile-img:hover {
+    transform: scale(1.05); /* hover interaction */
+}
+
+.contact-info a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #0073b1;
+}
+
+button {
+    background-color: #0073b1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #005582;
+}
