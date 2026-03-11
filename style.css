@@ -46,6 +46,18 @@ h2 {
     transform: scale(1.05); /* hover interaction */
 }
 
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0;
+}
+
+.contact-info p strong {
+    min-width: 110px;
+    flex-shrink: 0;
+}
+
 .contact-info a {
     color: #0073b1;
     text-decoration: none;
