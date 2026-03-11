@@ -14,6 +14,7 @@ body {
     padding: 40px; /* padding */
     border-radius: 12px; /* border-radius */
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -140,7 +141,7 @@ button:hover {
     background-color: #005582;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     body {
         padding: 10px;
     }
