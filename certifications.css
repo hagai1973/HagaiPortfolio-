@@ -1,0 +1,80 @@
+.page-top-img {
+    float: right;
+    margin: 0 0 15px 20px;
+}
+
+.linkedin-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.linkedin-all:hover {
+    text-decoration: underline;
+}
+
+.cert-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.cert-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 18px 25px;
+    background: #f9f9f9;
+    transition: box-shadow 0.2s;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.cert-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 115, 177, 0.15);
+}
+
+.cert-icon {
+    font-size: 28px;
+    color: #0073b1;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.cert-body h4 {
+    margin: 0 0 4px 0;
+    color: #0073b1;
+    font-size: 1.05em;
+}
+
+.cert-body .cert-issuer {
+    margin: 0 0 4px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.cert-body .cert-date {
+    margin: 0 0 10px 0;
+    color: #888;
+    font-size: 0.85em;
+}
+
+.cert-body a {
+    color: #0073b1;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.cert-body a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 40px;
+}
