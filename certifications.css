@@ -62,6 +62,18 @@
     object-fit: contain;
 }
 
+.cert-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.85em;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.cert-link:hover {
+    text-decoration: underline;
+}
+
 .cert-body h4 {
     margin: 0 0 4px 0;
     color: #0073b1;
